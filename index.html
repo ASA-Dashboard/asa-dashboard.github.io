@@ -22,7 +22,7 @@
 </head>
 <body>
 <div id="splash"><img src="icon-192.png" alt="ASA"><div>Opening ASA Dashboard…</div><div id="slow" style="display:none;font-size:13px">Taking a while? <a href="https://script.google.com/macros/s/AKfycbwtq90UzoSJr4byU9oDp1ycTWARpmp_YZY3TERmmWr0XsC-wRCJlQMshRg7bFD1REqUEQ/exec">Open it directly</a></div></div>
-<iframe id="app" src="https://script.google.com/macros/s/AKfycbwtq90UzoSJr4byU9oDp1ycTWARpmp_YZY3TERmmWr0XsC-wRCJlQMshRg7bFD1REqUEQ/exec" allow="clipboard-write; microphone; camera" title="ASA Dashboard"></iframe>
+<iframe id="app" credentialless src="https://script.google.com/macros/s/AKfycbwtq90UzoSJr4byU9oDp1ycTWARpmp_YZY3TERmmWr0XsC-wRCJlQMshRg7bFD1REqUEQ/exec" allow="clipboard-write; microphone; camera" title="ASA Dashboard"></iframe>
 <script>
   setTimeout(function(){ document.getElementById('slow').style.display='block'; }, 12000);
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(function(){});
